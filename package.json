@@ -1,0 +1,36 @@
+{
+  "name": "GraphQLMongoDB",
+  "version": "1.0.0",
+  "description": "This repository shows how GraphQL can be used in tandem with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreidimaano/GraphQLMongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreidimaano/GraphQLMongoDB/issues"
+  },
+  "homepage": "https://github.com/andreidimaano/GraphQLMongoDB#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.19.1",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.10"
+  }
+}
